@@ -37,15 +37,17 @@ ORDER BY price asc;
 SELECT SUM(stock_quantity)
 FROM superstore;
 
--- I 
+-- I created a statistic regarding the minimum price for items in the category titled 'Kitchen Supplies'.
 SELECT MIN(price) AS min_price
 FROM superstore
 WHERE category = 'Kitchen Supplies';
 
+-- I created a statistic regarding the average rating of a specific item titled 'Wireless Bluetooth Speaker' in the database.
 SELECT average_rating
 FROM superstore
 WHERE item_name = 'Wireless Bluetooth Speaker';
 
+-- I created a statistic about the stock quantity and price of a specific item titled 'Cozy Throw Blanket' in the database.
 SELECT stock_quantity, price
 FROM superstore
 WHERE item_name = 'Cozy Throw Blanket'
