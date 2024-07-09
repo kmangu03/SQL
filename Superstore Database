@@ -50,4 +50,4 @@ WHERE item_name = 'Wireless Bluetooth Speaker';
 -- I created a statistic about the stock quantity and price of a specific item titled 'Cozy Throw Blanket' in the database.
 SELECT stock_quantity, price
 FROM superstore
-WHERE item_name = 'Cozy Throw Blanket'
+WHERE item_name = 'Cozy Throw Blanket';
